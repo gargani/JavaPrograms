@@ -12,14 +12,11 @@ public class ReturnKeyword {
 	}
 
 	public static int[] retunArray(int a, int b, int c) {
-
 		int[] array = new int[3];
 		array[0] = a;
 		array[1] = b;
 		array[2] = c;
 
 		return array;
-
 	}
-
 }

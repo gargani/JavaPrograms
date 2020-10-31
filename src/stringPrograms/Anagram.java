@@ -1,7 +1,7 @@
 package stringPrograms;
 import java.util.Arrays;
 
-public class ToCheckStringIsAnagram {
+public class Anagram {
     public static void CheckAnagram() {
 
         String str1 = "Listen";
@@ -19,7 +19,7 @@ public class ToCheckStringIsAnagram {
 
             Arrays.sort(c1);
             Arrays.sort(c2);
-            // flag = Arrays.equals(c1, c2);
+            //flag = Arrays.equals(c1, c2);
 
             for (int i = 0; i < str1.length(); i++)
                 if (c1[i] != c2[i])
@@ -30,6 +30,5 @@ public class ToCheckStringIsAnagram {
             System.out.println("Strings are Anagram");
         else
             System.out.println("Strings are not Anagram");
-
     }
 }
